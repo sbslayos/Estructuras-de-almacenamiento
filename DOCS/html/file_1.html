@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main></main>
+    <h3>Ejercicio 1</h3>
+    <label for="figura">Escoge entre las figuras para calcular Area o Perimetro</label>
+    <select id="figura" onchange="mostrarCampos()">
+        <option value="triangulo">Triangulo</option>
+        <option value="rectangulo">Rectangulo</option>
+        <option value="cuadrado">Cuadrado</option>
+        <option value="circulo">Circulo</option>
+    </select>
+    <div id="campos">
+
+    </div>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <p id="resultado"></p>
+
+    </main>
+	<script src="../js/Js_1.js"></script>
+  </body>
+</html>
